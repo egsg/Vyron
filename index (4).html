@@ -1,34 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vyron.xyz</title>
-    <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to Vyron.xyz</h1>
-        <nav>
-            <a href="#hero">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap');
 
-    <!-- Hero Section -->
-    <section class="hero" id="hero">
-        <h2>Your One-Stop Solution</h2>
-        <p>Discover amazing content and connect with us today.</p>
-        <div class="cta">
-            <a href="#about">Learn More</a>
-        </div>
-    </section>
+/* General Body Styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 Vyron.xyz. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+/* Header Styling */
+header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #00d1b2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #00d1b2;
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section Styling */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero p {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cta {
+    margin-top: 30px;
+}
+
+.cta a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00d1b2;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cta a:hover {
+    background-color: #00a98c;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #aaaaaa;
+    font-family: 'Roboto', sans-serif;
+}
